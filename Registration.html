@@ -5,12 +5,19 @@
 <link rel="stylesheet" type="text/css" href="style1.css">
 </head>
 
-<body style="background-image:pic1.jpg">
-
+<body style="background-image:pic2.jpg">
+		
 <br>
 <br>
-<br>
-<br>
+				<div class="main">
+					<nav>
+			<div class="logo">
+				<img src="logo.png" class="avatar1">
+			</div>
+				<ul>
+					<li><a href="Homepage.html">Home</a></li>
+					<br><br><li><a href="#">About</a></li>
+					
 <div class="Registerbox">
 <form name="my" action="" method="POST" onSubmit="return Hi()">
 
@@ -18,13 +25,9 @@
 <table align="center" width=600 height=50 >
 
 <tr>
-
-	<th colspan="2" text-align="center"   style="font-size: 20pt; ">Register Your Self!</th>
-
+	<th colspan="2" text-align="center"   style="font-size: 15pt;">Register Your Self!</th><br>
 </tr>
-
 <tr>
-
 	<td><p>First Name:</p></td>
 
 	<td><input type="text" name="fname" id="textfield" /></td>
@@ -58,7 +61,7 @@
 	
 <td><p>Address :</p></td>
 
-	<td><input type="text" name="address" placeholder="Enter Your Address" id="textfield5"></td>
+	<td><input type="text" name="address"  id="textfield5"></td>
 
 </tr>
 <tr>	
@@ -88,7 +91,7 @@
 	
 	<td ><p> State:</p></td>
 	<td><select name="State">
-		<option>Select Your State</option>  
+		<option class="city">Select Your State</option>  
       <option value="Gujarat">Gujarat</option>
 
         <option value="Maharastra">Maharastra</option>
@@ -117,21 +120,9 @@
 
 </tr>
 <tr>
-	<td><p>Gender</p></td>
-
-	<td><input type="Radio" name="poll">Male
-<input type="Radio" name="poll">Female</td>
-
+	<td><button type="Reset" class="Reset-btn">Reset</button>
+	<br><button type="Submit" class="Submit-btn">Submit</button></td>
 </tr>
-<tr>
-
-
-	<td align="center"><input type="Reset" name="Reset" value="Reset"></td>
-   
-	<td align="center"><input type="Submit" name="Submit"value="Submit" ></td>
-
-</tr>
-
 </table>
 
 </form>
