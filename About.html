@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Mobile shopping</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 { 
+    background-color: #1abc9c; /* Green */
+    color: #ffffff;
+  }
+  .bg-2 { 
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+  }
+  .bg-3 { 
+    background-color: #ffffff; /* White */
+    color: #555555;
+  }
+  .bg-4 { 
+    background-color: #2f2f2f; /* Black Gray */
+    color: #fff;
+  }
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+    color: #1abc9c !important;
+  }
+  #carousel .carousel-inner img{
+    width: 100%;
+    height: 50vh;
+    object-fit: cover; 
+  }
+  .category .text-cat{
+    text-align: center;
+    color: #333;
+  }
+  .category .text-cat img{
+    max-height: 370px;
+  }
+  .brands {
+    text-align: center;
+    color: #333;
+  }
+  </style>
+
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Mobile shopping</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="Homepage.html">HOME</a></li>
+        <li class="active"><a href="#">ABOUT</a></li>
+        <li><a href="#">CATEGORIES</a></li>
+        <li><a href="LoginPage.html">LOGIN</a></li>
+        <li><a href="Registration.html">REGISTRATION</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- First Container -->
+<div id="carousel" class="carousel slide" data-ride="carousel">
+    <!-- Menu -->
+    <ol class="carousel-indicators">
+        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel" data-slide-to="1"></li>
+        <li data-target="#carousel" data-slide-to="2"></li>
+    </ol>
+    
+    <!-- Items -->
+    <div class="carousel-inner">
+        
+        <div class="item active">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img19/Wireless/Rakshabandhan/D11399736_Rakshabandhan_Fest_Desktop-Header._CB1198675309_.jpg?image=1" alt="Slide 1" />
+        </div>
+        <div class="item">
+            <img src="https://i.pinimg.com/originals/ca/e7/2c/cae72ce86998abcadd5051acd91a696b.jpg?image=2" alt="Slide 2" />
+        </div>
+        <div class="item">
+            <img src="https://i2.wp.com/www.right-brothers.net/wp-content/uploads/2019/04/Amazon-Fab-Phones-Fest-April-2019.jpg?fit=920%2C408&ssl=1?image=3" alt="Slide 3" />
+        </div>
+    </div> 
+      <a href="#carousel" class="left carousel-control" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+      </a>
+      <a href="#carousel" class="right carousel-control" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+      </a>
+  </div>
+  <div class="container-fluid category">
+  <div class="row">
+    <div class="col-sm-4 text-cat">
+     <img src="https://www.pngitem.com/pimgs/m/112-1121724_mobile-and-tablet-png-mobiles-tablets-png-transparent.png" alt="thumbnail" class="mx-auto d-block img-thumbnail" >
+     <h2>Tablates</h2>
+    </div>
+    <div class="col-sm-4 text-cat">
+     <img src="https://www.android.com/static/2016/img/one/carousel/nokia_5_3_1x.png" alt="thumbnail" class="mx-auto d-block img-thumbnail" >
+      <h2>Android Mobiles</h2>
+    </div>
+    <div class="col-sm-4 text-cat">
+     <img src="https://cdn.dxomark.com/wp-content/uploads/medias/post-39867/apple_iphone_11-1024x768.jpg" alt="thumbnail" class="mx-auto d-block img-thumbnail" >
+      <h2>Iphone Mobiles</h2>
+    </div>
+  </div>
+</div>
+<br><div class="top-content brands">
+    <div class="container-fluid">
+              <h1>Brands We Provide</h1>
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                  <img src="2.png" class="img-fluid mx-auto d-block" alt="img1">
+              </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <img src="3.png" class="img-fluid mx-auto d-block" alt="img2">
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <img src="4.png" class="img-fluid mx-auto d-block" alt="img3">
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <img src="1.png" class="img-fluid mx-auto d-block" alt="img4">
+                </div>
+                
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center">
+  <p>This Website helps people to find latest mobile phones with variety of models on internet. This website allow people to buy latest mobile phone from website by making online payment.
+<!-- Top content --></p> 
+</footer>
+<script type="text/javascript">
+    $(document).ready(function(){
+      
+      $("#carousel").carousel();
+      $('#carousel-example').carousel();
+      $('#carousel-example').on('slide.bs.carousel', function (e) {
+    /*
+        CC 2.0 License Iatek LLC 2018 - Attribution required
+    */
+    var $e = $(e.relatedTarget);
+    var idx = $e.index();
+    var itemsPerSlide = 5;
+    var totalItems = $('.carousel-item').length;
+ 
+    if (idx >= totalItems-(itemsPerSlide-1)) {
+        var it = itemsPerSlide - (totalItems - idx);
+        for (var i=0; i<it; i++) {
+            // append slides to end
+            if (e.direction=="left") {
+                $('.carousel-item').eq(i).appendTo('.carousel-inner');
+            }
+            else {
+                $('.carousel-item').eq(0).appendTo('.carousel-inner');
+            }
+        }
+    }
+});
+
+    })
+  </script>
+
+</body>
+</html>
